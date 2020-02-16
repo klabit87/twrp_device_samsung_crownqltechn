@@ -48,7 +48,7 @@ TARGET_BOARD_PLATFORM_GPU := qcom-adreno630
 # Kernel
 TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/Image.gz-dtb
 TARGET_KERNEL_APPEND_DTB := true
-BOARD_KERNEL_CMDLINE := console=null androidboot.hardware=qcom video=vfb:640x400,bpp=32,memsize=3072000 msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 service_locator.enable=1 swiotlb=20488 androidboot.selinux=permissive
+BOARD_KERNEL_CMDLINE := console=null androidboot.hardware=qcom video=vfb:640x400,bpp=32,memsize=3072000 msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 service_locator.enable=1 swiotlb=20488 androidboot.selinux=permissive root=/dev/block/sda22
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_TAGS_OFFSET := 0x01E00000
