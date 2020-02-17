@@ -14,4 +14,4 @@
 # limitations under the License.
 #
 
-PRODUCT_MAKEFILES := $(LOCAL_PATH)/omni_crownqltechn.mk
+PRODUCT_MAKEFILES := device/samsung/crownqltechn/omni_crownqltechn.mk
