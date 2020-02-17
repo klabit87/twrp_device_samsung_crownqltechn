@@ -14,9 +14,11 @@
 # limitations under the License.
 #
 
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
+
 PRODUCT_DEVICE := crownqltechn
 PRODUCT_NAME := omni_crownqltechn
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-N9600
 PRODUCT_MANUFACTURER := samsung
+PRODUCT_GMS_CLIENTID_BASE := android-samsung
