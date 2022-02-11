@@ -77,7 +77,6 @@ BOARD_CUSTOM_BOOTIMG_MK := device/samsung/crownqlte/bootimg.mk
 # Recovery
 BOARD_HAS_LARGE_FILESYSTEM := true
 BOARD_HAS_NO_SELECT_BUTTON := true
-TARGET_USERIMAGES_USE_EXT4 := true
 
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 131072
@@ -102,7 +101,7 @@ TW_INCLUDE_CRYPTO := false
 TW_INCLUDE_CRYPTO_FBE := false
 
 # TWRP specific build flags
-TW_DEVICE_VERSION := 2_afaneh92
+TW_DEVICE_VERSION := 3_afaneh92
 TW_THEME := portrait_hdpi
 RECOVERY_SDCARD_ON_DATA := true
 TARGET_RECOVERY_QCOM_RTC_FIX := true
