@@ -15,4 +15,6 @@
 #
 
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/omni_crownqlte.mk
+	$(LOCAL_DIR)/twrp_crownqlte.mk
+
+COMMON_LUNCH_CHOICES := twrp_crownqlte-eng
