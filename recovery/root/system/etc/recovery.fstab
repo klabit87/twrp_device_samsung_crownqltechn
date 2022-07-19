@@ -34,7 +34,7 @@
 #/dev/block/mmcblk0p1			/sdcard		sdfat	defaults		recoveryonly
 /dev/block/bootdevice/by-name/efs	/efs		ext4	defaults		recoveryonly
 #/dev/block/bootdevice/by-name/carrier	/carrier	ext4	defaults		recoveryonly
-/dev/block/bootdevice/by-name/hidden	/preload	ext4	defaults		recoveryonly
+#/dev/block/bootdevice/by-name/hidden	/preload	ext4	defaults		recoveryonly
 
 # FOTA
 /dev/block/bootdevice/by-name/apnhlos	/modem		emmc	defaults		recoveryonly
