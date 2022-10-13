@@ -97,7 +97,7 @@ TW_INCLUDE_CRYPTO := false
 TW_INCLUDE_CRYPTO_FBE := false
 
 # TWRP specific build flags
-TW_DEVICE_VERSION := 4_afaneh92
+TW_DEVICE_VERSION := 1_afaneh92
 TW_THEME := portrait_hdpi
 RECOVERY_SDCARD_ON_DATA := true
 TARGET_RECOVERY_QCOM_RTC_FIX := true
