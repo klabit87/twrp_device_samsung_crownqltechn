@@ -25,6 +25,16 @@
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
+on init
+    start hwservicemanager
+
 on fs
     wait /dev/block/platform/soc/${ro.boot.bootdevice}
     symlink /dev/block/platform/soc/${ro.boot.bootdevice} /dev/block/bootdevice
+
+service hwservicemanager /system/bin/hwservicemanager
+    user root
+    group root
+    onrestart setprop hwservicemanager.ready false
+    disabled
+    seclabel u:r:recovery:s0

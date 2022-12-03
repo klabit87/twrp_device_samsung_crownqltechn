@@ -4,3 +4,4 @@ ro.board.platform=sdm845
 sys.usb.controller=a600000.dwc3
 #fbe.metadata.wrappedkey=true
 ro.boot.bootdevice=1d84000.ufshc
+ro.fastbootd.available=true
