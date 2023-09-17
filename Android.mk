@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-ifneq ($(filter crownqlte, $(TARGET_DEVICE)),)
+ifneq ($(filter crownqltechn, $(TARGET_DEVICE)),)
 
 LOCAL_PATH := $(call my-dir)
 

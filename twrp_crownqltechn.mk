@@ -15,7 +15,7 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := crownqlte
+PRODUCT_RELEASE_NAME := crownqltechn
 
 # Inherit from common AOSP config
 $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
@@ -25,18 +25,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/crownqlte/device.mk)
+$(call inherit-product, device/samsung/crownqltechn/device.mk)
 
 # Charger
 PRODUCT_PACKAGES += \
     charger_res_images
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/samsung/crownqlte/recovery/root,recovery/root)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/samsung/crownqltechn/recovery/root,recovery/root)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := twrp_crownqlte
-PRODUCT_DEVICE := crownqlte
-PRODUCT_MODEL := SM-N960U
+PRODUCT_NAME := twrp_crownqltechn
+PRODUCT_DEVICE := crownqltechn
+PRODUCT_MODEL := SM-N9600
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
